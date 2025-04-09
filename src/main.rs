@@ -43,6 +43,7 @@ fn main() {
         );
     }
 
+    /*
     let uv_key = config["config"]["uv"].as_str().unwrap();
     for mapped_record in mapped_records.iter() {
         println!(
@@ -54,6 +55,7 @@ fn main() {
                 * -1.0,
         );
     }
+    */
 
     for i in 0..mapped_records.iter().count() / 3 {
         let offset_i = i * 3;
