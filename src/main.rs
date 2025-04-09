@@ -61,9 +61,9 @@ fn main() {
         let offset_i = i * 3;
         println!(
             "f {0}/{0} {1}/{1} {2}/{2}",
-            offset_i + 1,
-            offset_i + 2,
             offset_i + 3,
+            offset_i + 2,
+            offset_i + 1,
         );
     }
 }
